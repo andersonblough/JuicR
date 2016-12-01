@@ -1,0 +1,55 @@
+{
+  "juices": [
+    {
+      "name": "Watermelon Cocktail",
+      "recipe": [
+        {
+          "itemId": "01",
+          "quantity": 1
+        }
+      ],
+      "color": "#FF7272"
+    },
+    {
+      "name": "Green Lemonade",
+      "recipe": [
+        {
+          "name": "Green Apples",
+          "quantity": 2,
+          "type": "",
+          "plural": ""
+        },
+        {
+          "name": "Spinach",
+          "quantity": 2,
+          "type": "bunch",
+          "plural": "bunches"
+        },
+        {
+          "name": "Kale",
+          "quantity": 8,
+          "type": "leaf",
+          "plural": "leaves"
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 1,
+          "type": "",
+          "plural": ""
+        },
+        {
+          "name": "Celery",
+          "quantity": 0.5,
+          "type": "rib",
+          "plural": "ribs"
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "type": "",
+          "plural": ""
+        }
+      ]
+    }
+  ]
+}

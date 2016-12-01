@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space3"
+        android:layout_gravity="center_horizontal"
+        android:text="Pick a color"
+        style="@style/Text.Label"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/juice_picker"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingStart="172dp"
+        android:paddingEnd="172dp"
+        android:layout_marginTop="@dimen/space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/juice_icon_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        style="@style/Text.Label"
+        android:text="Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="@color/light_grey"
+        android:textColor="@color/dark_grey"
+        android:inputType="textCapWords"
+        android:gravity="center"
+        android:fontFamily="medium"
+        android:textSize="24sp"
+        android:hint="Juicey McJuiceface"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space3"
+        android:layout_gravity="center_horizontal"
+        style="@style/Text.Label"
+        android:text="Serving Size"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@color/light_grey"
+            android:textColor="@color/dark_grey"
+            android:inputType="number"
+            android:fontFamily="medium"
+            android:textSize="24sp"
+            android:hint="0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:fontFamily="medium"
+            android:textSize="24sp"
+            android:text=" ounces"/>
+
+    </LinearLayout>
+
+    <com.andersonblough.juicr.view.RecipeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space4"
+        android:layout_marginEnd="@dimen/space4"
+        android:layout_marginTop="@dimen/space3" />
+
+</LinearLayout>

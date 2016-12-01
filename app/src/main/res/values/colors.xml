@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--100% — FF-->
+    <!--95% — F2-->
+    <!--90% — E6-->
+    <!--85% — D9-->
+    <!--80% — CC-->
+    <!--75% — BF-->
+    <!--70% — B3-->
+    <!--65% — A6-->
+    <!--60% — 99-->
+    <!--55% — 8C-->
+    <!--50% — 80-->
+    <!--45% — 73-->
+    <!--40% — 66-->
+    <!--35% — 59-->
+    <!--30% — 4D-->
+    <!--25% — 40-->
+    <!--20% — 33-->
+    <!--15% — 26-->
+    <!--10% — 1A-->
+    <!--5% — 0D-->
+    <!--0% — 00-->
+
+    <array name="juice_colors">
+        <item>#881026</item>
+        <item>#621026</item>
+        <item>#190D0F</item>
+        <item>#3C450D</item>
+        <item>#5D8202</item>
+        <item>#95A700</item>
+        <item>#C4D51E</item>
+        <item>#EED42D</item>
+        <item>#FFA400</item>
+        <item>#FF542E</item>
+        <item>#CA1716</item>
+        <item>#B12C08</item>
+        <item>#A1642C</item>
+        <item>#D18F64</item>
+        <item>#ECC094</item>
+        <item>#F7EAC4</item>
+    </array>
+
+    <color name="white">#FFF</color>
+    <color name="white90">#E6FFFFFF</color>
+
+    <color name="dark_grey">#4A4A4A</color>
+    <color name="light_grey">#C7C7C7</color>
+    <color name="black">#000000</color>
+
+    <color name="blue">#00CBFF</color>
+    <color name="x_light_grey">#e7e7e7</color>
+</resources>

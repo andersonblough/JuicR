@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JuicR</string>
+    <string name="add_juice">Add Juice</string>
+    <string name="edit">Edit</string>
+    <string name="edit_juice">Edit Juice</string>
+    <string name="done">Done</string>
+</resources>
